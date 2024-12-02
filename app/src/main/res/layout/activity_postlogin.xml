@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".postlogin"
+    android:id="@+id/main">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogout"
+        android:layout_width="219dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/cerrar_sesi_n"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Nuevo texto entre los botones -->
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="405dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="menú"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnLogout" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddSensor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/agregar_sensor1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDescription" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnHistory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/historial_de_lecturas1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnAddSensor" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnListSensors"
+        android:layout_width="412dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="32dp"
+        android:text="Lista de Sensores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHistory" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

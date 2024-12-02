@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_1"
+        android:title="lectura tiempo real "
+        android:enabled="true"
+        android:icon="@drawable/ic_realtime"/>
+
+    <item
+        android:id="@+id/item_2"
+        android:title="agregar sensor"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_sensor"/>
+
+    <item
+        android:id="@+id/item_3"
+        android:title="lista sensor"
+        android:enabled="true"
+        android:icon="@drawable/ic_history"/>
+
+
+
+
+
+
+</menu>

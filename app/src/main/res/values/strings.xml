@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">prueba3</string>
+    <string name="login">Login</string>
+    <string name="correo_electronico">Correo Electronico</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="no_estas_registrado_registrate">¿No estas registrado? Registrate</string>
+    <string name="menu">menu</string>
+    <string name="cerrar_sesi_n">Cerrar Sesión</string>
+    <string name="crear_cuenta">crear cuenta</string>
+    <string name="volver_al_login">volver al login</string>
+    <string name="crear_cuentas">crear cuenta</string>
+    <string name="ingrese_datos_del_sensor">ingrese datos del sensor</string>
+    <string name="nombre_sensor">nombre sensor</string>
+    <string name="codigo_sensor">codigo sensor</string>
+    <string name="ubicacion_instalacion">ubicacion instalacion</string>
+    <string name="guardar">Guardar</string>
+    <string name="ver_datos">Ver datos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="historial_de_detecciones">Historial de Detecciones</string>
+    <string name="agregar_sensor">Agregar Sensor</string>
+    <string name="tiempo_real">Tiempo Real</string>
+    <string name="agregar_sensor1">Agregar Sensor</string>
+    <string name="historial_de_lecturas1">Historial de Lecturas</string>
+    <string name="lista_de_sensores1">Lista de Sensores</string>
+    <string name="c_digo">Código</string>
+    <string name="ubicaci_n">Ubicación</string>
+    <string name="agregar_sensor2">Agregar Sensor</string>
+    <string name="volver_al_men2">Volver al Menú</string>
+    <string name="modelo">Modelo</string>
+    <string name="agregar_sensor3">Agregar Sensor</string>
+    <string name="volver_al_men">Volver al Menú</string>
+    <string name="opci_n_no_disponible_de_momento_espere_pr_ximas_actualizaciones">Opción no disponible de momento, espere próximas actualizaciones</string>
+    <string name="volver_al_men1">Volver al menú</string>
+    <string name="modelo_sensor_x">Modelo: Sensor X</string>
+    <string name="c_digo_12345">Código: 12345</string>
+    <string name="ubicaci_n_laboratorio">Ubicación: Laboratorio</string>
+
+</resources>
